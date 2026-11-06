@@ -1,0 +1,107 @@
+# Visual Studio, IIS Express and personal editor settings
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+*.DotSettings.user
+_ReSharper*/
+
+# Build outputs and generated files
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Aa]rtifacts/
+x64/
+x86/
+ARM/
+ARM64/
+bld/
+[Bb]uild[Ll]og.*
+*.pdb
+*.cache
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+Generated Files/
+
+# NuGet packages are restored from the versioned packages.config
+[Pp]ackages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Test results, coverage and profiling
+[Tt]est[Rr]esult*/
+.coverage/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+*.vsp
+*.vspx
+*.psess
+
+# Local databases, database logs and backups
+*.mdf
+*.ndf
+*.ldf
+*.sdf
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.bak
+
+# Publish outputs and deployment profiles (may contain credentials)
+_PublishedWebsites/
+[Pp]ublish/
+*.pubxml
+*.pubxml.user
+*.publishproj
+*.publishsettings
+*.publish.xml
+*.azurePubxml
+
+# Local secrets and private keys
+.env
+.env.*
+!.env.example
+!.env.sample
+.secrets/
+secrets.json
+*.local.config
+*.pfx
+*.p12
+*.pem
+*.key
+*.snk
+.aws/
+
+# Logs, temporary files and operating system metadata
+[Ll]ogs/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep Web.config, packages.config and the Scripts/Content assets in Git.
